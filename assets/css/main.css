@@ -1,0 +1,138 @@
+/* Body */
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Header */
+
+header .header-bg {
+  background: url("https://images.unsplash.com/photo-1496664444929-8c75efb9546f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header .header-darker {
+  margin-top: -100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header .header-content {
+  margin-top: -100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-content h3 {
+  font-weight: 300;
+}
+
+/* Navigation */
+
+nav .container .navbar-brand {
+  font-weight: bold;
+}
+
+/* About Us */
+
+main .about {
+  background-color: #e5eaed;
+}
+
+.ps {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+main .work {
+  background: #e2d7e8;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100px;
+}
+
+main section .container .row .col-lg-6 .video {
+  width: 100%;
+  height: auto;
+}
+
+/* Services */
+
+main section.services {
+  background-color: #e5eaed;
+}
+
+/* Our Projects */
+
+main section.ourpro .ourpro-bg {
+  height: 75vh;
+  background: url("https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1892&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main section.ourpro .ourpro-darker {
+  height: 75vh;
+  margin-top: -75vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+main section.ourpro .ourpro-content {
+  height: 75vh;
+  margin-top: -75vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  padding: 30px 0;
+  background-color: #e5eaed;
+  text-align: center;
+}
+
+footer small a {
+  color: rgb(49, 49, 49);
+  text-decoration: none;
+}
+
+footer small a:hover {
+  color: black;
+  font-weight: 300;
+}
+
+@media (max-width: 576px) {
+  /* About */
+  main section.about .container .row .about-content {
+    padding-top: 75px;
+    padding-bottom: 0px;
+  }
+  main section.about .container .row .col-lg-6 img {
+    margin-top: 0;
+    margin-bottom: 75px;
+  }
+
+  /* Work */
+  main section.work .container .row .work-content {
+    padding-top: 0px;
+    padding-bottom: 75px;
+  }
+
+  main section.work .container .row .col-lg-6 img {
+    margin-top: 75;
+    margin-bottom: 0px;
+  }
+
+  /* Funfact */
+
+  main section.funfact .container .row .funfact-content {
+    margin-top: 100px;
+  }
+}
